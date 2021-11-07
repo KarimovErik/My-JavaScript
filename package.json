@@ -1,0 +1,26 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "my test project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "serve": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olsy-solvve/nodejs.git"
+  },
+  "author": "Oleksandr Sypalo <olsy@solvve.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olsy-solvve/nodejs/issues"
+  },
+  "homepage": "https://github.com/olsy-solvve/nodejs#readme",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
